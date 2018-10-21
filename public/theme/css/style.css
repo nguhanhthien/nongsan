@@ -15629,3 +15629,8 @@ input {
 .newsletter-popup {
 	background-color: rgba(0, 0, 0, 0.7);
 }
+
+/*thao style*/
+a{
+    font-size: 18px;
+}

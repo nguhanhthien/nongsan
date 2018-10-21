@@ -40,15 +40,15 @@
 							</li>
 							
 							<li>
-								<a href="#">Kiến thức</a>
+								<a href="{{route('blog')}}">Kiến thức</a>
 							</li>
 							
 							<li>
-								<a href="#">Về chúng tôi</a>
+								<a href="{{route('aboutus')}}">Về chúng tôi</a>
 							</li>
 							
 							<li>
-								<a href="#">Liên hệ</a>
+								<a href="{{route('contact')}}">Liên hệ</a>
 							</li>
 						</ul>
 					</div>

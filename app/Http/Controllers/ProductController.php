@@ -23,4 +23,12 @@ class ProductController extends Controller
         return view('products.detail');
     }
 
+    public function viewcart(){
+        return view ('frontend.viewcart');
+    }
+
+    public function checkout(){
+        return view('frontend.checkout');
+    }
+
 }
