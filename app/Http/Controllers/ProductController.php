@@ -18,4 +18,9 @@ class ProductController extends Controller
         return view('frontend.product');
     }
 
+    public function detail($slug)
+    {
+        return view('products.detail');
+    }
+
 }

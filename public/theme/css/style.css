@@ -11354,7 +11354,7 @@ input {
 }
 
 .product-detail .control-label {
-    font-size: .114583333in;
+    font-size: 15px;
 }
 
 [class~=sidebar] [class~=filter-color] [class~=color-4] {
@@ -12456,7 +12456,9 @@ input {
 
 [class~=product-detail] [class~=item] span[class~=text],
 [class~=product-detail] [class~=product-extra] [class~=item] a {
-    font-size: .114583333in;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 27px;
 }
 
 [class~=product-detail] [class~=product-image] img,

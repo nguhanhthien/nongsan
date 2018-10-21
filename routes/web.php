@@ -17,7 +17,7 @@ Route::middleware('web')
     ->prefix('san-pham')
     ->group(function () {
         Route::get('/', 'ProductController@index')->name('product');
-        Route::get('/danh-muc/{slug}', 'ProductsController@detail');
+        Route::get('/danh-muc/{slug}', 'ProductController@detail')->name('detail-product');
         // Route::get('/done', 'ProductsController@getDone');
         // Route::get('/cancel', 'ProductsController@getCancel');
     });

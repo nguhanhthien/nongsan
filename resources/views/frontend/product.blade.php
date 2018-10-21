@@ -3,13 +3,12 @@
 <!-- Slideshow -->
 	@include('products.banner')
 	
-	<div class="container" style="max-width: 1170px;">
+	<ol class="breadcrumb" style="padding-left: 0px;">
+	 	<li><a href="">Trang chủ</a></li>
+	  	<li><a href="{{route('product')}}">Sản phẩm</a></li>
+	</ol>
 
-		<ol class="breadcrumb" style="padding-left: 0px;">
-		 	<li><a href="">Trang chủ</a></li>
-		  	<li><a href="{{route('product')}}">Sản phẩm</a></li>
-		</ol>
-
+	<div class="container">
 		<div class="row">
 			<!-- Sidebar -->
 			@include('products.sidebar')
