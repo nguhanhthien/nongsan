@@ -161,7 +161,7 @@
                 <div class="block banner">
                     <div class="block-content">
                         <div class="effect">
-                            <img class="img-responsive" src="img/blog-banner.jpg" alt="Banner">
+                            <img class="img-responsive" src="{{asset('theme/img/blog-banner.jpg')}}" alt="Banner">
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                 <div class="blog-detail">
                     <div class="post-item">
                         <div class="post-image">
-                            <img class="img-responsive" src="img/blog/blog-1.jpg" alt="Blog Image">
+                            <img class="img-responsive" src="{{asset('theme/img/blog/blog-1.jpg')}}" alt="Blog Image">
                         </div>
 
                         <h1 class="post-title">5 Best Fruits To Make You Fresh And Healthy</h1>
@@ -182,8 +182,8 @@
                             <h5>Here, we bring you a look-see:</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus. Curabitur pulvinar dui viverra libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="img/blog/blog-detail-1.jpg" alt=""></div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="img/blog/blog-detail-2.jpg" alt=""></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="{{asset('theme/img/blog/blog-detail-1.jpg')}}" alt=""></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="{{asset('theme/img/blog/blog-detail-2.jpg')}}" alt=""></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus. Curabitur pulvinar dui viverra libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod neque</p>
                         </div>
@@ -235,7 +235,7 @@
                                         <div class="blog-item">
                                             <div class="blog-image">
                                                 <a href="blog-detail.html" class="zoom-effect">
-                                                    <img src="img/blog/blog-1.jpg" alt="Blog Image">
+                                                    <img src="{{asset('theme/img/blog/blog-1.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
                                             <div class="blog-info">
@@ -249,7 +249,7 @@
                                         <div class="blog-item">
                                             <div class="blog-image">
                                                 <a href="blog-detail.html" class="zoom-effect">
-                                                    <img src="img/blog/blog-2.jpg" alt="Blog Image">
+                                                    <img src="{{asset('theme/img/blog/blog-2.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
                                             <div class="blog-info">
@@ -263,7 +263,7 @@
                                         <div class="blog-item">
                                             <div class="blog-image">
                                                 <a href="blog-detail.html" class="zoom-effect">
-                                                    <img src="img/blog/blog-3.jpg" alt="Blog Image">
+                                                    <img src="{{asset('theme/img/blog/blog-3.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
                                             <div class="blog-info">
@@ -285,7 +285,7 @@
                                 <div class="item d-flex">
                                     <div class="comment-left">
                                         <div class="avatar">
-                                            <img src="img/avatar.jpg" alt="" width="70" height="70">
+                                            <img src="{{asset('theme/img/avatar.jpg')}}" alt="" width="70" height="70">
                                         </div>
                                         <div class="product-rating">
                                             <div class="star on"></div>
@@ -306,7 +306,7 @@
                                 <div class="item d-flex">
                                     <div class="comment-left">
                                         <div class="avatar">
-                                            <img src="img/avatar.jpg" alt="" width="70" height="70">
+                                            <img src="{{asset('theme/img/avatar.jpg')}}" alt="" width="70" height="70">
                                         </div>
                                         <div class="product-rating">
                                             <div class="star on"></div>

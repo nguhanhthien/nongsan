@@ -19,11 +19,11 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="post-item">
                             <div class="post-image">
-                                <a href="blog-detail.html">
+                                <a href="{{route('blog-detail','ten-bai-viet')}}l">
                                     <img class="img-responsive" src="{{asset('theme/img/blog/blog-1.jpg')}}" alt="Blog Image">
                                 </a>
                             </div>
-                            <a class="post-title" href="blog-detail.html">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
+                            <a class="post-title" href="{{route('blog-detail','ten-bai-viet')}}">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
                             <div class="post-info">
                                 <span class="comment item"><i class="zmdi zmdi-comments"></i>2 Comments</span>
                                 <span class="date item"><i class="zmdi zmdi-calendar-note"></i>14 Mar, 2018</span>
@@ -38,11 +38,11 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="post-item">
                             <div class="post-image">
-                                <a href="blog-detail.html">
+                                <a href="{{route('blog-detail','ten-bai-viet')}}">
                                     <img class="img-responsive" src="{{asset('theme/img/blog/blog-2.jpg')}}" alt="Blog Image">
                                 </a>
                             </div>
-                            <a class="post-title" href="blog-detail.html">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
+                            <a class="post-title" href="{{route('blog-detail','ten-bai-viet')}}">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
                             <div class="post-info">
                                 <span class="comment item"><i class="zmdi zmdi-comments"></i>2 Comments</span>
                                 <span class="date item"><i class="zmdi zmdi-calendar-note"></i>14 Mar, 2018</span>
@@ -61,7 +61,7 @@
                                     <img class="img-responsive" src="{{asset('theme/img/blog/blog-3.jpg')}}" alt="Blog Image">
                                 </a>
                             </div>
-                            <a class="post-title" href="blog-detail.html">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
+                            <a class="post-title" href="{{route('blog-detail','ten-bai-viet')}}">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
                             <div class="post-info">
                                 <span class="comment item"><i class="zmdi zmdi-comments"></i>2 Comments</span>
                                 <span class="date item"><i class="zmdi zmdi-calendar-note"></i>14 Mar, 2018</span>
@@ -80,7 +80,7 @@
                                     <img class="img-responsive" src="{{asset('theme/img/blog/blog-4.jpg')}}" alt="Blog Image">
                                 </a>
                             </div>
-                            <a class="post-title" href="blog-detail.html">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
+                            <a class="post-title" href="{{route('blog-detail','ten-bai-viet')}}">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
                             <div class="post-info">
                                 <span class="comment item"><i class="zmdi zmdi-comments"></i>2 Comments</span>
                                 <span class="date item"><i class="zmdi zmdi-calendar-note"></i>14 Mar, 2018</span>
@@ -95,11 +95,11 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="post-item">
                             <div class="post-image">
-                                <a href="blog-detail.html">
+                                <a href="{{route('blog-detail','ten-bai-viet')}}">
                                     <img class="img-responsive" src="{{asset('theme/img/blog/blog-5.jpg')}}" alt="Blog Image">
                                 </a>
                             </div>
-                            <a class="post-title" href="blog-detail.html">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
+                            <a class="post-title" href="{{route('blog-detail','ten-bai-viet')}}">5 loại trái cây lành mạnh và tốt cho sức khỏe</a>
                             <div class="post-info">
                                 <span class="comment item"><i class="zmdi zmdi-comments"></i>2 Comments</span>
                                 <span class="date item"><i class="zmdi zmdi-calendar-note"></i>14 Mar, 2018</span>
@@ -114,7 +114,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="post-item">
                             <div class="post-image">
-                                <a href="blog-detail.html">
+                                <a href="{{route('blog-detail','ten-bai-viet')}}">
                                     <img class="img-responsive" src="{{asset('theme/img/blog/blog-6.jpg')}}" alt="Blog Image">
                                 </a>
                             </div>
