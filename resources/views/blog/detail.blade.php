@@ -140,6 +140,7 @@
                                         <div class="blog-item">
                                             <div class="blog-image">
                                                 <a href="/kien-thuc/a" class="zoom-effect">
+                                                <a href="blog-detail.html" class="zoom-effect">
                                                     <img src="{{asset('theme/img/blog/blog-1.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
@@ -154,6 +155,7 @@
                                         <div class="blog-item">
                                             <div class="blog-image">
                                                 <a href="/kien-thuc/a" class="zoom-effect">
+                                                <a href="blog-detail.html" class="zoom-effect">
                                                     <img src="{{asset('theme/img/blog/blog-2.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
@@ -168,6 +170,7 @@
                                         <div class="blog-item">
                                             <div class="blog-image">
                                                 <a href="/kien-thuc/a" class="zoom-effect">
+                                                <a href="blog-detail.html" class="zoom-effect">
                                                     <img src="{{asset('theme/img/blog/blog-3.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>

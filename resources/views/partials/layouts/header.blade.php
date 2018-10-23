@@ -162,10 +162,10 @@
 								<a href="#" title="Log in to your customer account"><i class="fa fa-cog"></i>Tài khoản của bạn</a>
 							</div>
 							<div class="item">
-								<a href="user-login.html" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Đăng nhập</a>
+								<a href="{{route('getLogin')}}" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Đăng nhập</a>
 							</div>
 							<div class="item">
-								<a href="user-register.html" title="Register Account"><i class="fa fa-user"></i>Đăng ký</a>
+								<a href="{{route('register')}}" title="Register Account"><i class="fa fa-user"></i>Đăng ký</a>
 							</div>
 							<div class="item">
 								<a href="#" title="My Wishlists"><i class="fa fa-heart"></i>My Wishlists</a>
