@@ -1,18 +1,14 @@
 @extends('frontend.master')
 @section('content')
-    <!-- Breadcrumb -->
-    <div id="breadcrumb">
-        <div class="container">
-            <h2 class="title">Về chúng tôi</h2>
 
-            <ul class="breadcrumb">
-                <li><a href="{{route('index')}}" title="Home">Trang chủ</a></li>
-                <li><span>Về chúng tôi</span></li>
-            </ul>
-        </div>
-    </div>
+    <div class="container" style="max-width: 1170px;">
 
-    <div class="container">
+        <ol class="breadcrumb" style="padding-left: 0px;">
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="{{route('product')}}">Về chúng tôi</a></li>
+        </ol>
+
+        <div class="row" style="padding-top: 60px;padding-bottom: 60px;">
         <div class="about-us intro">
             <div class="container">
                 <div class="row">

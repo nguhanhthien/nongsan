@@ -1,4 +1,4 @@
-<div class="section intro">
+<div class="section intro" style="padding-top: 0px;">
     <div class="block-content">
         <div class="container">
             <div class="intro-wrap">

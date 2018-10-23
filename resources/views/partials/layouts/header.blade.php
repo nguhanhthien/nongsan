@@ -8,17 +8,23 @@
 					<div id="main-menu">
 						<ul class="menu">
 							<li class="dropdown">
-								<a href="/" title="Trang chủ - Thực phẩm sạch">Trang chủ</a>
+								<a href="/" title="Trang chủ - Thực phẩm sạch"><i class="fa fa-home"></i></a>
 							</li>
-							
+
+							<li>
+								<a href="{{route('blog')}}">Deal</a>
+							</li>
+
 							<li class="dropdown">
 								<a href="{{route('product')}}" title="Thực phẩm sạch- Sản phẩm">Sản phẩm</a>
 								<div class="dropdown-menu">
 									<ul>
+
 										<li class="has-image">
 											<img src="{{ asset('theme/img/product/product-category-1.png')}}" alt="Product Category Image">
 											<a href="#" title="Vegetables">Rau củ</a>
 										</li>
+
 										<li class="has-image">
 											<img src="{{ asset('theme/img/product/product-category-2.png')}}" alt="Product Category Image">
 											<a href="#" title="Fruits">Hoa quả</a>
@@ -40,16 +46,13 @@
 							</li>
 							
 							<li>
+								<a href="{{route('blog')}}">Shop</a>
+							</li>
+
+							<li>
 								<a href="{{route('blog')}}">Kiến thức</a>
 							</li>
 							
-							<li>
-								<a href="{{route('aboutus')}}">Về chúng tôi</a>
-							</li>
-							
-							<li>
-								<a href="{{route('contact')}}">Liên hệ</a>
-							</li>
 						</ul>
 					</div>
 				</div>
@@ -58,7 +61,7 @@
 				<div class="col-lg-2 col-md-2 col-sm-12 header-center justify-content-center">
 					<!-- Logo -->		
 					<div class="logo">
-						<a href="">
+						<a href="{{ url('/') }}">
 							<img class="img-responsive" src="{{ asset('theme/img/logo.png')}}" alt="Logo">
 						</a>
 					</div>

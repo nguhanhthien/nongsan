@@ -1,137 +1,42 @@
 @extends('frontend.master')
 @section('content')
-    <!-- Breadcrumb -->
-    <!-- Breadcrumb -->
-    <div id="breadcrumb">
-        <div class="container">
-            <h2 class="title">Bài viết :5 loại trái cây lành mạnh và tốt cho sức khỏe</h2>
 
-            <ul class="breadcrumb">
-                <li><a href="{{route('index')}}" title="Home">Trang chủ</a></li>
-                <li><span>Bài viết</span></li>
-            </ul>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
+    <!-- @include('products.banner') -->
+
+    <div class="container" style="max-width: 1170px;">
+
+        <ol class="breadcrumb" style="padding-left: 0px;">
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="{{route('product')}}">Kiến thức</a></li>
+            <li>Tên bài viết</li>
+        </ol>
+
+        <div class="row" style="padding-top: 60px;">
             <!-- Sidebar -->
             <div id="left-column" class="sidebar col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <!-- Block - Product Categories -->
-                <div class="block product-categories">
-                    <h3 class="block-title">Categories</h3>
-
-                    <div class="block-content">
-                        <div class="item">
-										<span class="arrow collapsed" data-toggle="collapse" data-target="#vegetables" aria-expanded="false" role="button">
-											<i class="zmdi zmdi-minus"></i>
-											<i class="zmdi zmdi-plus"></i>
-										</span>
-
-                            <a class="category-title" href="product-grid-left-sidebar.html">Vegetables</a>
-                            <div class="sub-category collapse" id="vegetables" aria-expanded="true" role="main">
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Tomato</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Broccoli</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Cabbage</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Cucumber</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-										<span class="arrow collapsed" data-toggle="collapse" data-target="#fruits" aria-expanded="false" role="button">
-											<i class="zmdi zmdi-minus"></i>
-											<i class="zmdi zmdi-plus"></i>
-										</span>
-
-                            <a class="category-title" href="product-grid-left-sidebar.html">Fruits</a>
-                            <div class="sub-category collapse" id="fruits" aria-expanded="true" role="main">
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Orange</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Apple</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Banana</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Strawberry</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-										<span class="arrow collapsed" data-toggle="collapse" data-target="#juices" aria-expanded="false" role="button">
-											<i class="zmdi zmdi-minus"></i>
-											<i class="zmdi zmdi-plus"></i>
-										</span>
-
-                            <a class="category-title" href="product-grid-left-sidebar.html">Juices</a>
-                            <div class="sub-category collapse" id="juices" aria-expanded="true" role="main">
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Orange Juices</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Tomato Juices</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Apple Juices</a>
-                                </div>
-                                <div class="item">
-                                    <a href="product-grid-left-sidebar.html">Peaches Juices</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <a class="category-title" href="product-grid-left-sidebar.html">Tea and Coffee</a>
-                        </div>
-
-                        <div class="item">
-                            <a class="category-title" href="product-grid-left-sidebar.html">Jam</a>
-                        </div>
-
-                        <div class="item">
-                            <a class="category-title" href="product-grid-left-sidebar.html">SeaFood</a>
-                        </div>
-
-                        <div class="item">
-                            <a class="category-title" href="product-grid-left-sidebar.html">Fresh Meats</a>
-                        </div>
-                    </div>
-                </div>
-
-
                 <!-- Block - Recent Posts -->
                 <div class="block posts recent-posts">
-                    <h3 class="block-title">Recent Posts</h3>
+                    <h3 class="block-title">Bài viết mới nhất</h3>
 
                     <div class="block-content">
                         <div class="post-item">
-                            <a class="post-title" href="blog-detail.html">5 Best Fruits To Make You Fresh And Healthy</a>
+                            <a class="post-title" href="/kien-thuc/a">5 Best Fruits To Make You Fresh And Healthy</a>
                             <div class="post-info">
                                 <span class="comment item"><i class="zmdi zmdi-comments"></i>2 Comments</span>
                                 <span class="date item"><i class="zmdi zmdi-calendar-note"></i>14 Mar, 2018</span>
                             </div>
                             <div class="post-description">Proin gravida nibh vel velit auctor aliquet. Aenean lorem quis bibendum auctor, nisi elit consequat ipsum... </div>
-                            <div class="post-readmore"><a href="blog-detail.html">Read more</a></div>
+                            <div class="post-readmore"><a href="/kien-thuc/a">Read more</a></div>
                         </div>
 
                         <div class="post-item">
-                            <a class="post-title" href="blog-detail.html">5 Best Fruits To Make You Fresh And Healthy</a>
+                            <a class="post-title" href="/kien-thuc/a">5 Best Fruits To Make You Fresh And Healthy</a>
                             <div class="post-info">
                                 <span class="comment item"><i class="zmdi zmdi-comments"></i>2 Comments</span>
                                 <span class="date item"><i class="zmdi zmdi-calendar-note"></i>14 Mar, 2018</span>
                             </div>
                             <div class="post-description">Proin gravida nibh vel velit auctor aliquet. Aenean lorem quis bibendum auctor, nisi elit consequat ipsum... </div>
-                            <div class="post-readmore"><a href="blog-detail.html">Read more</a></div>
+                            <div class="post-readmore"><a href="/kien-thuc/a">Read more</a></div>
                         </div>
                     </div>
                 </div>
@@ -161,7 +66,7 @@
                 <div class="block banner">
                     <div class="block-content">
                         <div class="effect">
-                            <img class="img-responsive" src="img/blog-banner.jpg" alt="Banner">
+                            <img class="img-responsive" src="{{asset('theme/img/blog-banner.jpg')}}" alt="Banner">
                         </div>
                     </div>
                 </div>
@@ -172,7 +77,7 @@
                 <div class="blog-detail">
                     <div class="post-item">
                         <div class="post-image">
-                            <img class="img-responsive" src="img/blog/blog-1.jpg" alt="Blog Image">
+                            <img class="img-responsive" src="{{asset('theme/img/blog/blog-1.jpg')}}" alt="Blog Image">
                         </div>
 
                         <h1 class="post-title">5 Best Fruits To Make You Fresh And Healthy</h1>
@@ -182,8 +87,8 @@
                             <h5>Here, we bring you a look-see:</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus. Curabitur pulvinar dui viverra libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="img/blog/blog-detail-1.jpg" alt=""></div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="img/blog/blog-detail-2.jpg" alt=""></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="{{asset('theme/img/blog/blog-detail-1.jpg')}}" alt=""></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img class="img-responsive" src="{{asset('theme/img/blog/blog-detail-2.jpg')}}" alt=""></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod, neque nibh pretium lorem, at ornare risus sem et risus. Curabitur pulvinar dui viverra libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut iaculis arcu. Proin tincidunt, ipsum nec vehicula euismod neque</p>
                         </div>
@@ -211,7 +116,7 @@
                         <div class="post-author d-flex">
                             <div class="author-left">
                                 <div class="avatar">
-                                    <img src="img/avatar.jpg" alt="" width="100" height="100">
+                                    <img src="{{asset('theme/img/avatar.jpg')}}" alt="" width="100" height="100">
                                 </div>
                             </div>
                             <div class="author-body">
@@ -234,12 +139,12 @@
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                         <div class="blog-item">
                                             <div class="blog-image">
-                                                <a href="blog-detail.html" class="zoom-effect">
-                                                    <img src="img/blog/blog-1.jpg" alt="Blog Image">
+                                                <a href="/kien-thuc/a" class="zoom-effect">
+                                                    <img src="{{asset('theme/img/blog/blog-1.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
                                             <div class="blog-info">
-                                                <div class="blog-title"><a href="blog-detail.html">5 Best fruits to make you fresh and healthy</a></div>
+                                                <div class="blog-title"><a href="/kien-thuc/a">5 Best fruits to make you fresh and healthy</a></div>
                                                 <div class="blog-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy...</div>
                                             </div>
                                         </div>
@@ -248,12 +153,12 @@
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                         <div class="blog-item">
                                             <div class="blog-image">
-                                                <a href="blog-detail.html" class="zoom-effect">
-                                                    <img src="img/blog/blog-2.jpg" alt="Blog Image">
+                                                <a href="/kien-thuc/a" class="zoom-effect">
+                                                    <img src="{{asset('theme/img/blog/blog-2.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
                                             <div class="blog-info">
-                                                <div class="blog-title"><a href="blog-detail.html">5 Best fruits to make you fresh and healthy</a></div>
+                                                <div class="blog-title"><a href="/kien-thuc/a">5 Best fruits to make you fresh and healthy</a></div>
                                                 <div class="blog-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy...</div>
                                             </div>
                                         </div>
@@ -262,12 +167,12 @@
                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                         <div class="blog-item">
                                             <div class="blog-image">
-                                                <a href="blog-detail.html" class="zoom-effect">
-                                                    <img src="img/blog/blog-3.jpg" alt="Blog Image">
+                                                <a href="/kien-thuc/a" class="zoom-effect">
+                                                    <img src="{{asset('theme/img/blog/blog-3.jpg')}}" alt="Blog Image">
                                                 </a>
                                             </div>
                                             <div class="blog-info">
-                                                <div class="blog-title"><a href="blog-detail.html">5 Best fruits to make you fresh and healthy</a></div>
+                                                <div class="blog-title"><a href="/kien-thuc/a">5 Best fruits to make you fresh and healthy</a></div>
                                                 <div class="blog-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy...</div>
                                             </div>
                                         </div>
@@ -285,7 +190,7 @@
                                 <div class="item d-flex">
                                     <div class="comment-left">
                                         <div class="avatar">
-                                            <img src="img/avatar.jpg" alt="" width="70" height="70">
+                                            <img src="{{asset('theme/img/avatar.jpg')}}" alt="" width="70" height="70">
                                         </div>
                                         <div class="product-rating">
                                             <div class="star on"></div>
@@ -306,7 +211,7 @@
                                 <div class="item d-flex">
                                     <div class="comment-left">
                                         <div class="avatar">
-                                            <img src="img/avatar.jpg" alt="" width="70" height="70">
+                                            <img src="{{asset('theme/img/avatar.jpg')}}" alt="" width="70" height="70">
                                         </div>
                                         <div class="product-rating">
                                             <div class="star on"></div>

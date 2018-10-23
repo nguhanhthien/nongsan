@@ -6,7 +6,7 @@
 					<div class="text">
 						<h3>Tomato and Pepper</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-						<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>SHOP NOW</a>
+						<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>MUA NGAY</a>
 					</div>
 					<div class="image-mask"></div>
 					<img class="img-responsive" src="{{ asset('theme/img//banner/home3-banner-1.jpg')}}" alt="Banner">
@@ -20,7 +20,7 @@
 							<div class="text">
 								<h3>Tomato and Pepper</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>SHOP NOW</a>
+								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>MUA NGAY</a>
 							</div>
 							<div class="image-mask"></div>
 							<img class="img-responsive" src="{{ asset('theme/img//banner/home3-banner-2.jpg')}}" alt="Banner">
@@ -31,7 +31,7 @@
 							<div class="text">
 								<h3>Tomato and Pepper</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>SHOP NOW</a>
+								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>MUA NGAY</a>
 							</div>
 							<div class="image-mask"></div>
 							<img class="img-responsive" src="{{ asset('theme/img//banner/home3-banner-3.jpg')}}" alt="Banner">
@@ -42,7 +42,7 @@
 							<div class="text">
 								<h3>Tomato and Pepper</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>SHOP NOW</a>
+								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>MUA NGAY</a>
 							</div>
 							<div class="image-mask"></div>
 							<img class="img-responsive" src="{{ asset('theme/img//banner/home3-banner-4.jpg')}}" alt="Banner">
@@ -53,7 +53,7 @@
 							<div class="text">
 								<h3>Tomato and Pepper</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>SHOP NOW</a>
+								<a class="button" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>MUA NGAY</a>
 							</div>
 							<div class="image-mask"></div>
 							<img class="img-responsive" src="{{ asset('theme/img//banner/home3-banner-5.jpg')}}" alt="Banner">

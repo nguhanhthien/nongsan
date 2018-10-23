@@ -1,10 +1,10 @@
 <div class="product-item">
 	<div class="product-title">
-		Organic Strawberry Fruits
+		<h1>Cua biển cà mua 3 gạch</h1>
 	</div>
 				
 	<div class="row">
-		<div class="product-left col-md-3 col-sm-4 col-xs-12">
+		<div class="product-left col-md-5 col-sm-5 col-xs-12">
 			<div class="product-image horizontal">
 				<div class="main-image">
 					<img class="img-responsive" src="{{asset('theme/img/product/2.jpg')}}" alt="Product Image">
@@ -18,65 +18,31 @@
 			</div>
 		</div>
 		
-		<div class="product-right col-md-6 col-sm-4 col-xs-12">
+		<div class="product-right col-md-7 col-sm-7 col-xs-12">
 			<div class="product-info">
 				<div class="product-price">
-					<span class="sale-price">$80.00</span>
-					<span class="base-price">$90.00</span>
+					<div class="row">
+						<div class="col-md-4">
+							<span class="sale-price">$80.00</span>
+							<span class="base-price">$90.00</span>
+						</div>
+						<div class="col-md-8">
+							<h3 class="timeout pull-right">
+								Còn: <span class="color-red">64</span> ngày
+								<span class="color-red">03</span> giờ 
+								<span class="color-red">31</span> phút
+							</h3>
+						</div>
+					</div>
+					
 				</div>
-				
-				<!-- <div class="product-stock">
-					<span class="availability">Availability :</span><i class="fa fa-check-square-o" aria-hidden="true"></i>In stock
-				</div> -->
 				
 				<div class="product-short-description">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sapien urna, commodo ut molestie vitae, feugiat tincidunt ligula. Nam gravida nulla in convallis condimentum.
 				</div>
 				
-				<!-- <div class="product-variants border-bottom">
-					<div class="product-variants-item">
-						<span class="control-label">Size :</span>
-						<select>
-							<option value="1" title="S">S</option>
-							<option value="2" title="M">M</option>
-							<option value="3" title="L">L</option>
-							<option value="4" title="One size">One size</option>
-						</select>
-					</div>
-
-					<div class="product-variants-item">
-						<span class="control-label">Color :</span>
-
-						<ul>
-							<li>
-								<input class="input-color" type="radio" value="1">
-								<span class="color" style="background-color: #E84C3D"></span>
-							</li>
-							<li>
-								<input class="input-color" type="radio" value="2">
-								<span class="color" style="background-color: #5D9CEC"></span>
-							</li>
-							<li>
-								<input class="input-color" type="radio" value="3">
-								<span class="color" style="background-color: #A0D468"></span>
-							</li>
-							<li>
-								<input class="input-color" type="radio" value="4">
-								<span class="color" style="background-color: #F1C40F"></span>
-							</li>
-							<li>
-								<input class="input-color" type="radio" value="5">
-								<span class="color" style="background-color: #964B00"></span>
-							</li>
-							<li>
-								<input class="input-color" type="radio" value="6">
-								<span class="color" style="background-color: #FCCACD"></span>
-							</li>
-						</ul>
-					</div>
-				</div> -->
-				
-				<div class="product-add-to-cart border-bottom">
+			
+				<div class="product-add-to-cart  border-bottom">
 					<div class="product-quantity">
 						<span class="control-label">Số lượng :</span>
 						<div class="qty">
@@ -101,19 +67,31 @@
 						</a>
 					</div>
 				</div>
-				
+
 				<div class="product-share border-bottom">
-					<div class="item">
-						<a href="#"><i class="zmdi zmdi-share" aria-hidden="true"></i><span class="text">Chia sẻ</span></a>
+					<div class="progress">
+					  	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+					  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					    70%
+					  	</div>
 					</div>
-					<div class="item">
-						<a href="#"><i class="zmdi zmdi-email" aria-hidden="true"></i><span class="text">Gửi cho bạn bè</span></a>
-					</div>
-					<div class="item">
-						<a href="#"><i class="zmdi zmdi-print" aria-hidden="true"></i><span class="text">In</span></a>
+					<h3>Số lượng đạt 70/<b>100kg</h3>
+				</div>
+
+				<div class="product-share border-bottom">
+					<!-- Left-aligned -->
+					<div class="media">
+					  	<div class="media-left">
+					    	<img src="http://localhost:8000/theme/img/product/3.jpg" class="media-object" style="width:60px">
+					  	</div>
+					  	<div class="media-body">
+					    	<h4 class="media-heading"><i class="fa fa-gift color-red"></i><b> Khuyến mãi kèm</b></h4>
+					    	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					    	tempor incididunt ut labore et dolore magna aliqua</p>
+					  	</div>
 					</div>
 				</div>
-				
+
 				<div class="product-review border-bottom">
 					<div class="item">
 						<div class="product-quantity">
@@ -139,10 +117,7 @@
 				
 				<div class="product-extra">
 					<div class="item">
-						<span class="control-label">Review :</span><span class="control-label">E-02154</span>
-					</div>
-					<div class="item">
-						<span class="control-label">Categories :</span>
+						<span class="control-label">DANH MỤC :</span>
 						<a href="#" title="Vegetables">Vegetables,</a>
 						<a href="#" title="Fruits">Fruits,</a>
 						<a href="#" title="Apple">Apple</a>
@@ -152,26 +127,6 @@
 						<a href="#" title="Vegetables">Hot Trend,</a>
 						<a href="#" title="Fruits">Summer</a>			
 					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="payment-intro col-md-3 col-sm-4 col-xs-12">
-			<div class="block-content">
-				<div class="item">
-					<img class="img-responsive" src="{{asset('theme/img/home2-payment-1.png')}}" alt="Payment Intro">
-					<h3 class="title">Free Shipping item</h3>
-					<div class="content">Proin gravida nibh vel velit auctor aliquet aenean</div>
-				</div>
-				<div class="item">
-					<img class="img-responsive" src="{{asset('theme/img/home2-payment-2.png')}}" alt="Payment Intro">
-					<h3 class="title">Secured Payment</h3>
-					<div class="content">Proin gravida nibh vel velit auctor aliquet aenean</div>
-				</div>
-				<div class="item">
-					<img class="img-responsive" src="{{asset('theme/img/home2-payment-3.png')}}" alt="Payment Intro">
-					<h3 class="title">money back guarantee</h3>
-					<div class="content">Proin gravida nibh vel velit auctor aliquet aenean</div>
 				</div>
 			</div>
 		</div>

@@ -16,6 +16,7 @@
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="{{ asset('theme/libs/bootstrap/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('theme/libs/font-awesome/css/font-awesome.min.css')}}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('theme/libs/font-material/css/material-design-iconic-font.min.css')}}">
     <link rel="stylesheet" href="{{ asset('theme/libs/nivo-slider/css/nivo-slider.css')}}">
     <link rel="stylesheet" href="{{ asset('theme/libs/nivo-slider/css/animate.css')}}">

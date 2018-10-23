@@ -68,7 +68,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-					<div class="copyright">Copyright © {{date('Y')}} - All rights reserved. Powered by Trần Danh Đại.</div>
+					<div class="copyright">Copyright © {{date('Y')}} - Thực phẩm sạch. Powered by Trần Danh Đại.</div>
 				</div>
 				
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 align-right">
