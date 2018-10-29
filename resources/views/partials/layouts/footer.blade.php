@@ -10,8 +10,7 @@
 								<a href="home-4.html" class="logo-footer">
 									<img src="{{ asset('theme/img/logo-3.png')}}" alt="Logo">
 								</a>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<p>Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip.</p>
+								{!! config('Introduce') !!}
 							</div>
 						</div>
 					</div>
@@ -21,10 +20,10 @@
 							<h2 class="block-title">Newsletter</h2>
 							
 							<div class="block-content">
-								<p class="description">Sign up for newsletter to receive special offers and exclusive news about FreshMart products</p>
-								<form action="http://tivatheme.com/html/freshmart/index.html" method="post">
-									<input type="text" placeholder="Enter Your Email">
-									<button type="submit" class="btn btn-primary">Subscribe</button>
+								<p class="description">Đăng ký để nhận Hot Deal và Khuyến mãi mới mỗi ngày</p>
+								<form action="l" method="post">
+									<input type="text" placeholder="Email đăng ký">
+									<button type="submit" class="btn btn-primary">Đăng ký ngay</button>
 								</form>
 							</div>
 						</div>
@@ -32,15 +31,10 @@
 					
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-col">
 						<div class="block text">
-							<h2 class="block-title">Opening Hours</h2>
+							<h2 class="block-title">Giờ mở cửa</h2>
 							
 							<div class="block-content">
-								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-								<p>
-									<strong>Monday To Friday</strong> : 8.00 AM - 8.00 PM<br>
-									<strong>Satuday</strong> : 7.30 AM - 9.30 PM<br>
-									<strong>Sunday</strong> : 7.00 AM - 10.00 PM
-								</p>
+								{!! config('Opening') !!}
 							</div>
 						</div>
 					</div>
@@ -51,9 +45,7 @@
 							
 							<div class="block-content">
 								<div class="contact">
-									<p><strong>Address</strong> : 123 Suspendis matti, VST District, NY Accums, North American</p>
-									<p><strong>Hotline</strong> : 012345678910 - 098765432100</p>
-									<p><strong>Email</strong> : <a href="mailto:support@domain.com">support@domain.com</a></p>
+									{!! config('Contact') !!}
 								</div>
 							</div>
 						</div>

@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Thực phẩm sạch</title>
+    <title>{!! config('Title') !!}</title>
     
-    <meta name="keywords" content="Thực phẩm sạch">
-    <meta name="description" content="Thực phẩm sạch">
+    <meta name="keywords" content="{!! config('Keywords') !!}">
+    <meta name="description" content="{!! config('Description') !!}">
     <meta name="author" content="Nguyễn Thế Hồng Khê">
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('theme/img/favicon.png') }}" type="image/png">

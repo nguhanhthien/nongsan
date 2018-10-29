@@ -75,7 +75,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'Admin TPS',
+    'title' => 'Thực phẩm sạch',
 
     /*
     |--------------------------------------------------------------------------
@@ -129,7 +129,7 @@ return [
     'upload' => [
 
         // Disk in `config/filesystem.php`.
-        'disk' => 'admin',
+        'disk' => 'public',
 
         // Image and file upload path under the disk above.
         'directory' => [
@@ -241,7 +241,7 @@ return [
     | "sidebar-mini".
     |
     */
-    'layout' => ['sidebar-mini', 'sidebar-collapse'],
+    'layout' => ['layout-boxed', 'fixed'],
 
     /*
     |--------------------------------------------------------------------------
@@ -312,6 +312,24 @@ return [
     |
     */
     'extensions' => [
-
+        'media-manager' => [
+        
+            // Select a local disk that you configured in `config/filesystem.php`
+            'disk' => 'public'
+        ],
+        'ckeditor' => [
+        
+            //Set to false if you want to disable this extension
+            'enable' => true,
+            
+            // Editor configuration
+            'config' => [
+                'lang'   => 'vi',
+            ]
+        ],
+        'cropper' => [
+            'lang'   => 'en',
+            'enable' => true,
+        ]
     ],
 ];

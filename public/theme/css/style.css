@@ -3293,7 +3293,7 @@ input {
 }
 
 [class~=product-rating] [class~=review-count] {
-    font-size: .6875pc;
+    font-size: 15px;
 }
 
 [class~=my-account][class~=toggle-icon] [class~=dropdown-menu] [class~=item] [class~=switcher] a {
@@ -6995,7 +6995,7 @@ input {
 
 #footer [class~=footer] [class~=newsletter] form input,
 [class~=category-tab] [class~=tab-nav] ul li a {
-    font-size: .6875pc;
+    font-size: 15px;
 }
 
 [class~=home-2] [class~=testimonial] [class~=block-content],
@@ -7623,7 +7623,7 @@ input {
 }
 
 [class~=latest-news] [class~=blog-info] [class~=blog-time] span {
-    font-size: .6875pc;
+    font-size: 15px;
 }
 
 #toggle-mobile-menu {
@@ -9065,7 +9065,7 @@ input {
 }
 
 .products-block.layout-4 .product-item .product-countdown .item .number span {
-    font-size: .6875pc;
+    font-size: 15px;
 }
 
 [class~=home-4] [class~=block-title] [class~=sub-title] {
@@ -13593,7 +13593,7 @@ input {
 
 #footer [class~=footer] [class~=newsletter] form button,
 [class~=newsletter-popup] form button {
-    font-size: .6875pc;
+    font-size: 15px;
 }
 
 [class~=newsletter-popup] form button {
