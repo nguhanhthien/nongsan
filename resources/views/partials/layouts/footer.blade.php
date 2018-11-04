@@ -11,14 +11,35 @@
 									<img src="{{ asset('theme/img/logo-3.png')}}" alt="Logo">
 								</a>
 								{!! config('Introduce') !!}
+								
 							</div>
 						</div>
 					</div>
 					
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-col">
+						<div class="block text">
+							<div class="block-content">
+								<h2 class="block-title">Liên kết</h2>
+								<ul>
+									<li><a href="">Về chúng tôi</a></li>
+									<li><a href="">Hướng dẫn mua Deal</a></li>
+									<li><a href="">Hướng dẫn mua sản phẩm</a></li>
+									<li><a href="">Điều khoản mua bán hàng hóa</a></li>
+									<li><a href="">Chính sách bảo mật</a></li>
+									<li><a href="">Liên hệ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-col">
+						<div class="block text">
+							<h2 class="block-title">Giờ mở cửa</h2>
+							<div class="block-content">
+								{!! config('Opening') !!}
+							</div>
+						</div>
 						<div class="block newsletter">
-							<h2 class="block-title">Newsletter</h2>
-							
 							<div class="block-content">
 								<p class="description">Đăng ký để nhận Hot Deal và Khuyến mãi mới mỗi ngày</p>
 								<form action="l" method="post">
@@ -31,18 +52,7 @@
 					
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-col">
 						<div class="block text">
-							<h2 class="block-title">Giờ mở cửa</h2>
-							
-							<div class="block-content">
-								{!! config('Opening') !!}
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-col">
-						<div class="block text">
-							<h2 class="block-title">Contact Us</h2>
-							
+							<h2 class="block-title">Liên hệ</h2>
 							<div class="block-content">
 								<div class="contact">
 									{!! config('Contact') !!}

@@ -17,4 +17,5 @@ Route::group([
     $router->resource('tag', TagController::class);
     $router->resource('unit', UnitController::class);
     $router->resource('product', ProductController::class);
+    $router->resource('deal', DealController::class);
 });

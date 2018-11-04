@@ -1,6 +1,6 @@
 <!-- Vendor JS -->
-<script src="{{ asset('theme/libs/jquery/jquery.js')}}"></script>
-<script src="{{ asset('theme/libs/bootstrap/js/bootstrap.js')}}"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="{{ asset('theme/libs/jquery.countdown/jquery.countdown.js')}}"></script>
 <script src="{{ asset('theme/libs/nivo-slider/js/jquery.nivo.slider.js')}}"></script>
 <script src="{{ asset('theme/libs/owl.carousel/owl.carousel.min.js')}}"></script>

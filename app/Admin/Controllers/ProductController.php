@@ -23,8 +23,8 @@ class ProductController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->header('Index')
-            ->description('description')
+            ->header('Sản phẩm')
+            ->description('Danh sách sản phẩm')
             ->body($this->grid());
     }
 
@@ -38,8 +38,8 @@ class ProductController extends Controller
     public function show($id, Content $content)
     {
         return $content
-            ->header('Detail')
-            ->description('description')
+            ->header('Chi tiết sản phẩm')
+            ->description('')
             ->body($this->detail($id));
     }
 
@@ -53,8 +53,8 @@ class ProductController extends Controller
     public function edit($id, Content $content)
     {
         return $content
-            ->header('Edit')
-            ->description('description')
+            ->header('Chỉnh sửa sản phẩm')
+            ->description('')
             ->body($this->form()->edit($id));
     }
 
@@ -67,8 +67,9 @@ class ProductController extends Controller
     public function create(Content $content)
     {
         return $content
-            ->header('Create')
-            ->description('description')
+            ->header('Tạo mới sản phẩm')
+            ->description('')
+
             ->body($this->form());
     }
 
@@ -80,13 +81,41 @@ class ProductController extends Controller
     protected function grid()
     {
         $grid = new Grid(new Product);
+        // $grid->model()->category();
+        $grid->paginate(20);
 
-        $grid->id('ID');
-        $grid->created_at('Created at');
-        $grid->updated_at('Updated at');
+        $grid->id('ID')->sortable();
+        // $grid->images()->first()->image();
+        $grid->images()->display(function($images) {
+           return "<img src=".url('storage/'.$images[0])." style='width:60px;border-radius:50%;height:60px;object-fit:cover;' class='img img-thumbnail'>";
+        });
+
+        $grid->name('Tên sản phẩm')->display(function($name) {
+           return $name;
+        })->sortable();
+        $grid->column('category.name','Danh mục')->label();
+
+        $grid->amount('Giá bán')->display(function($amount) {
+           return number_format($amount,0,',','.');
+        })->sortable();
+
+        $grid->column('unit.value','Đơn vị')->label();
+
+        $grid->quantity('Số lượng')->sortable();
+
+        $states = [
+            'on' => ['text' => 'YES'],
+            'off' => ['text' => 'NO'],
+        ];
+
+        $grid->column('Trạng thái')->switchGroup([
+            'active'        => 'Kinh doanh',
+            'hot'           => 'Neo sản phẩm HOT',
+        ], $states);
 
         return $grid;
     }
+
 
     /**
      * Make a show builder.
@@ -97,11 +126,7 @@ class ProductController extends Controller
     protected function detail($id)
     {
         $show = new Show(Product::findOrFail($id));
-
-        $show->id('ID');
-        $show->created_at('Created at');
-        $show->updated_at('Updated at');
-
+        $show->name();
         return $show;
     }
 
@@ -121,11 +146,13 @@ class ProductController extends Controller
             $form->text('barcode','Mã sản phẩm');
             $form->select('cate_id','Danh mục')
                 ->options(Category::all()->pluck('name', 'id'));
-            $form->currency('amount','Đơn giá')->symbol('$');
+            $form->currency('amount','Đơn giá / đơn vị tiêu dùng')->symbol('$');
             $form->number('quantity','Số lượng trong kho');
             $form->select('unit_id','Đơn vị')
                 ->options(Unit::all()->pluck('value', 'id'));
+            // $form->number('unit','Đơn vị tiêu dùng');
             $form->switch('hot');
+            $form->switch('active','Kinh doanh');
 
             $form->multipleImage('images','Hình ảnh');
             $form->text('video','Đường dẫn video');
@@ -153,7 +180,7 @@ class ProductController extends Controller
 
         $form->saving(function (Form $form)  {
             $slug =  str_slug(\request()->get('name'));
-            $form->model()->slug = $slug ;
+            $form->model()->slug    = $slug ;
         });
 
         return $form;

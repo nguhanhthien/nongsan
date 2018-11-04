@@ -13134,7 +13134,7 @@ input {
 }
 
 [class~=home-4] #footer [class~=footer] [class~=footer-wrap] p {
-    margin-bottom: 11.25pt;
+    margin-bottom: 5px;
 }
 
 [class~=blog-list] [class~=post-item] [class~=post-title] {

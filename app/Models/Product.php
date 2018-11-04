@@ -1,11 +1,25 @@
 <?php
 
 namespace App\Models;
+use App\Models\Category;
+use App\Models\Unit;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
+
+    // Danh mục
+    public function category()
+    {
+        return $this->hasOne(Category::class,'id','cate_id');
+    }
+
+    // Đơn vị
+    public function unit()
+    {
+        return $this->hasOne(Unit::class,'id','unit_id');
+    }
 
 	// Hình ảnh
 	public function getImagesAttribute($images)
@@ -29,7 +43,7 @@ class Product extends Model
     {
         if (is_string($areas)) {
             return json_decode($areas, true);
-        }
+        };
 
         return $areas;
     }
