@@ -27,7 +27,6 @@
                                 
                                 <div class="product-price">
                                     <span class="sale-price">$80.00</span>
-                                    <span class="base-price">$90.00</span>
                                 </div>
 
                                 <div class="progress-home">
@@ -41,7 +40,7 @@
                                         </div>
                                     </div>
                                     <!-- <p><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp; 3 ngày</p> -->
-                                    <p><i class="material-icons"></i>&nbsp;&nbsp;<b>Còn 35 giờ</b></p>
+                                    <p><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp;<b>Còn 35 giờ</b></p>
                                 </div>
                                 
                             </div>
@@ -62,7 +61,6 @@
                                 
                                 <div class="product-price">
                                     <span class="sale-price">$80.00</span>
-                                    <span class="base-price">$90.00</span>
                                 </div>
 
                                 <div class="progress-home">
@@ -75,8 +73,7 @@
                                       aria-valuemin="0" aria-valuemax="100" style="width:70%">
                                         </div>
                                     </div>
-                                    <!-- <p><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp; 3 ngày</p> -->
-                                    <p><i class="material-icons"></i>&nbsp;&nbsp;<b>Còn 35 giờ</b></p>
+                                    <p><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp;<b>Còn 35 giờ</b></p>
                                 </div>
 
                             </div>
@@ -113,18 +110,8 @@
                                     Organic Strawberry Fruits
                                 </a>
                             </div>
-                            
-                            <ul class="product-rating list-inline">
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-o"></i></li>
-                                </ul>
-                            
                             <div class="product-price">
                                 <span class="sale-price">$80.00</span>
-                                <span class="base-price">$90.00</span>
                             </div>
                             
                         </div>
@@ -142,17 +129,8 @@
                                 </a>
                             </div>
                             
-                            <ul class="product-rating list-inline">
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li class="active"><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star-o"></i></li>
-                                </ul>
-                            
                             <div class="product-price">
                                 <span class="sale-price">$80.00</span>
-                                <span class="base-price">$90.00</span>
                             </div>
                             
                         </div>
