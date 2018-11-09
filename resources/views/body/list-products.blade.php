@@ -15,18 +15,18 @@
                             <div class="product-item margin-top-0">
                                 <div class="product-image">
                                     <a href="san-pham/danh-muc/ten-san-pham">
-                                        <img src="{{ asset('theme/img/product/4.jpg')}}"" alt="Product Image">
+                                        <img src="https://uphinhnhanh.com/images/2018/11/05/thitraugacbep.jpg"" alt="Product Image">
                                     </a>
                                 </div>
                                 
                                 <div class="product-title">
                                     <a href="san-pham/danh-muc/ten-san-pham">
-                                        Organic Strawberry Fruits
+                                        Thịt Trâu Gác Bếp
                                     </a>
                                 </div>
                                 
                                 <div class="product-price">
-                                    <span class="sale-price">$80.00</span>
+                                    <span class="sale-price">200.000 <sup>đ</sup></span>
                                 </div>
 
                                 <div class="progress-home">
@@ -49,34 +49,65 @@
                             <div class="product-item margin-top-0">
                                 <div class="product-image">
                                     <a href="san-pham/danh-muc/ten-san-pham">
-                                        <img src="{{ asset('theme/img/product/30.jpg')}}"" alt="Product Image">
+                                        <img src="https://uphinhnhanh.com/images/2018/11/05/cuathit1.md.png"" alt="Product Image">
                                     </a>
                                 </div>
                                 
                                 <div class="product-title">
                                     <a href="san-pham/danh-muc/ten-san-pham">
-                                        Organic Strawberry Fruits
+                                        Cua Thịt Cà Mau
                                     </a>
                                 </div>
                                 
                                 <div class="product-price">
-                                    <span class="sale-price">$80.00</span>
+                                    <span class="sale-price">245. 000 <sup>đ</sup></span>
                                 </div>
 
                                 <div class="progress-home">
                                     <p>
-                                        <span class="text-left"><b>70/100kg</b></span>
-                                        <span class="pull-right">70%</span>
+                                        <span class="text-left"><b>25/50kg</b></span>
+                                        <span class="pull-right">50%</span>
                                     </p>
                                     <div class="progress height-7px">
-                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
-                                      aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+                                      aria-valuemin="0" aria-valuemax="100" style="width:50%">
                                         </div>
                                     </div>
-                                    <p><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp;<b>Còn 35 giờ</b></p>
+                                    <p><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp;<b>Còn 2 ngày</b></p>
+                                </div>
+                            </div>
+
+                            <div class="product-item margin-top-0">
+                                <div class="product-image">
+                                    <a href="san-pham/danh-muc/ten-san-pham">
+                                        <img src="https://uphinhnhanh.com/images/2018/11/05/nho-ninh-thuan-thuong-hieu-nong-nghiep-noi-tieng-viet-nam-0647.md.png"" alt="Product Image">
+                                    </a>
+                                </div>
+                                
+                                <div class="product-title">
+                                    <a href="san-pham/danh-muc/ten-san-pham">
+                                        Nho Ninh Thuận
+                                    </a>
+                                </div>
+                                
+                                <div class="product-price">
+                                    <span class="sale-price">40.000 <sup>đ</sup></span>
                                 </div>
 
+                                <div class="progress-home">
+                                    <p>
+                                        <span class="text-left"><b>25/100kg</b></span>
+                                        <span class="pull-right">25%</span>
+                                    </p>
+                                    <div class="progress height-7px">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="25"
+                                      aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                                        </div>
+                                    </div>
+                                    <p><i class="glyphicon glyphicon-time"></i>&nbsp;&nbsp;<b>Còn 3 ngày</b></p>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
