@@ -7,12 +7,17 @@
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-col">
 						<div class="block text">
 							<div class="block-content">
-								<a href="home-4.html" class="logo-footer">
-									<img src="{{ asset('theme/img/logo-3.png')}}" alt="Logo">
-								</a>
 								{!! config('Introduce') !!}
-								
 							</div>
+							<!-- <div class="block newsletter">
+								<div class="block-content">
+									<p class="description">Đăng ký để nhận Hot Deal và Khuyến mãi mới mỗi ngày</p>
+									<form action="l" method="post">
+										<input type="text" placeholder="Email đăng ký">
+										<button type="submit" class="btn btn-primary">Đăng ký</button>
+									</form>
+								</div>
+							</div> -->
 						</div>
 					</div>
 					
@@ -39,15 +44,7 @@
 								{!! config('Opening') !!}
 							</div>
 						</div>
-						<div class="block newsletter">
-							<div class="block-content">
-								<p class="description">Đăng ký để nhận Hot Deal và Khuyến mãi mới mỗi ngày</p>
-								<form action="l" method="post">
-									<input type="text" placeholder="Email đăng ký">
-									<button type="submit" class="btn btn-primary">Đăng ký ngay</button>
-								</form>
-							</div>
-						</div>
+						
 					</div>
 					
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-col">

@@ -12,7 +12,7 @@
 							</li>
 
 							<li>
-								<a href="{{route('blog')}}">Deal</a>
+								<a href="{{route('deal-list')}}">Deal</a>
 							</li>
 
 							<li class="dropdown">

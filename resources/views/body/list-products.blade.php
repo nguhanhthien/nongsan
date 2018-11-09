@@ -112,6 +112,7 @@
                             </div>
                             <div class="product-price">
                                 <span class="sale-price">$80.00</span>
+                                <span class="base-price">$90.00</span>
                             </div>
                             
                         </div>
@@ -131,6 +132,7 @@
                             
                             <div class="product-price">
                                 <span class="sale-price">$80.00</span>
+                                <span class="base-price">$90.00</span>
                             </div>
                             
                         </div>
