@@ -1,19 +1,19 @@
 <div class="product-item">
 	<div class="product-title">
-		<h1>Cua biển cà mua 3 gạch</h1>
+		<h1>Thịt Trâu Gác Bếp</h1>
 	</div>
 				
 	<div class="row">
 		<div class="product-left col-md-5 col-sm-5 col-xs-12">
 			<div class="product-image horizontal">
 				<div class="main-image">
-					<img class="img-responsive" src="{{asset('theme/img/product/2.jpg')}}" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/thit-trau-gac-bep-tay-bac-24.jpg" alt="Product Image">
 				</div>
 				<div class="thumb-images owl-theme owl-carousel">
-					<img class="img-responsive" src="{{asset('theme/img/product/33.jpg')}}" alt="Product Image">
-					<img class="img-responsive" src="{{asset('theme/img/product/3.jpg')}}" alt="Product Image">
-					<img class="img-responsive" src="{{asset('theme/img/product/7.jpg')}}" alt="Product Image">
-					<img class="img-responsive" src="{{asset('theme/img/product/30.jpg')}}" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/thit-trau-gac-bep-tay-bac-24.jpg" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/thittraugacbep.jpg" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/thittraugacbep1.jpg" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/thitraugacbep.jpg" alt="Product Image">
 				</div>
 			</div>
 		</div>
@@ -23,13 +23,13 @@
 				<div class="product-price">
 					<div class="row">
 						<div class="col-md-4">
-							<span class="sale-price">$80.00</span>
+							<span class="sale-price">200.000 <sup>đ</sup></span>
 						</div>
 						<div class="col-md-8">
 							<h3 class="timeout pull-right">
-								Còn: <span class="color-red">64</span> ngày
-								<span class="color-red">03</span> giờ 
-								<span class="color-red">31</span> phút
+								Còn: <span class="color-red">00</span> ngày
+								<span class="color-red">35</span> giờ 
+								<span class="color-red">10</span> phút
 							</h3>
 						</div>
 					</div>
@@ -37,7 +37,7 @@
 				</div>
 				
 				<div class="product-short-description">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sapien urna, commodo ut molestie vitae, feugiat tincidunt ligula. Nam gravida nulla in convallis condimentum.
+					Thịt Trâu Gác Bếp do anh chị em chúng tôi ngả trâu, tự tay tẩm ướp, gác bếp và cung cấp đến tận tay các bác. 
 				</div>
 				
 			
@@ -77,21 +77,6 @@
 					<h3>Số lượng đạt 70/<b>100kg</h3>
 				</div>
 
-				<!--
-				<div class="product-share border-bottom">
-					<div class="media">
-					  	<div class="media-left">
-					    	<img src="http://localhost:8000/theme/img/product/3.jpg" class="media-object" style="width:60px">
-					  	</div>
-					  	<div class="media-body">
-					    	<h4 class="media-heading"><i class="fa fa-gift color-red"></i><b> Khuyến mãi kèm</b></h4>
-					    	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					    	tempor incididunt ut labore et dolore magna aliqua</p>
-					  	</div>
-					</div>
-				</div>
-				-->
-
 				<div class="product-review border-bottom">
 					<div class="item">
 						<div class="product-quantity">
@@ -118,14 +103,13 @@
 				<div class="product-extra">
 					<div class="item">
 						<span class="control-label">DANH MỤC :</span>
-						<a href="#" title="Vegetables">Vegetables,</a>
-						<a href="#" title="Fruits">Fruits,</a>
-						<a href="#" title="Apple">Apple</a>
+						<a href="#" title="">Thực phẩm khô</a>
+						<a href="#" title="">Thịt trâu</a>
 					</div>
 					<div class="item">
 						<span class="control-label">Tags :</span>
-						<a href="#" title="Vegetables">Hot Trend,</a>
-						<a href="#" title="Fruits">Summer</a>			
+						<a href="#" title="Vegetables">Thịt trâu</a>
+						<a href="#" title="Fruits">Tây Bắc</a>			
 					</div>
 				</div>
 			</div>
@@ -158,8 +142,13 @@
 		<div class="tab-content">
 			<!-- Description -->
 			<div role="tabpanel" class="tab-pane fade in active" id="description">
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+				Sản phẩm của chúng tôi có thể cắt miếng không đẹp, màu sắc không ấn tượng như sản phẩm sản xuất công nghiệp! Chỉ làm chu đáo số lượng nhỏ, để phục vụ các bác an tâm khi sử dụng, và cam kết 3 điều sau:
+				<br/>
+				Thịt Trâu Tươi, sạch, trâu ăn cỏ, không dịch bệnh
+				Trực tiếp chúng tôi hạ trâu, làm thịt, không mua đi bán lại.
+				Không Sử Dụng Hóa Chất tẩm ướp, bảo quản
+				<br/>
+				Tính từ khi ngả trâu, xẻ thịt, tẩm ướp, sấy khô đến khi miếng thịt thành phẩm về đến HN chỉ trong vòng 48 giờ.
 			</div>
 			
 			<!-- Product Tag -->
@@ -191,8 +180,15 @@
 						</a>
 					</li>
 				</ul>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+
+				<div class="tab-content" style="padding-left: 20px;">
+					<!-- Description -->
+					<div role="tabpanel" class="tab-pane fade in active" id="company" style="padding-top: 20px;">
+						<p>Thịt trâu gác bếp được công ty Hoa Ban Food cung cấp ra thị trường trên toàn quốc</p>
+					</div>
+
+				</div>
+				
 			</div>
 			
 			<!-- Review -->

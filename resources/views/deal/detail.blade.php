@@ -6,7 +6,7 @@
 		<ol class="breadcrumb" style="padding-left: 0px;">
 		 	<li><a href="">Trang chủ</a></li>
 		  	<li><a href="{{route('deal-list')}}">Hot deal</a></li>
-		  	<li>Tên sản phẩm</li>
+		  	<li>Thịt Trâu Gác Bếp</li>
 		</ol>
 
 		<div class="product-detail">
@@ -21,197 +21,24 @@
 				<h2 class="title">Sản phẩm cùng danh mục</h2>
 			</div>
 			
-			<div class="block-content">
+			<div class="block-content home-list">
 				<div class="products owl-theme owl-carousel">
-					<div class="product-item">
-						<div class="product-image">
-							<a href="product-detail-left-sidebar.html">
-								<img src="{{asset('theme/img/product/4.jpg')}}" alt="Product Image">
-							</a>
-						</div>
-						
-						<div class="product-title">
-							<a href="product-detail-left-sidebar.html">
-								Organic Strawberry Fruits
-							</a>
-						</div>
-						
-						<ul class="product-rating list-inline">
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li><i class="fa fa-star-o"></i></li>
-						</ul>
-						
-						<div class="product-price">
-							<span class="sale-price">$80.00</span>
-							<span class="base-price">$90.00</span>
-						</div>
-						
-						<div class="product-buttons">
-							<a class="add-to-cart" href="#">
-								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
-							</a>
-							
-							<a class="add-wishlist" href="#">
-								<i class="fa fa-heart" aria-hidden="true"></i>												
-							</a>
-							
-							<a class="quickview" href="#">
-								<i class="fa fa-eye" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-					
-					<div class="product-item">
-						<div class="product-image">
-							<a href="product-detail-left-sidebar.html">
-								<img src="{{asset('theme/img/product/15.jpg')}}" alt="Product Image">
-							</a>
-						</div>
-						
-						<div class="product-title">
-							<a href="product-detail-left-sidebar.html">
-								Organic Strawberry Fruits
-							</a>
-						</div>
-						
-						<ul class="product-rating list-inline">
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li><i class="fa fa-star-o"></i></li>
-						</ul>
-						
-						<div class="product-price">
-							<span class="sale-price">$120.00</span>
-						</div>
-						
-						<div class="product-buttons">
-							<a class="add-to-cart" href="#">
-								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
-							</a>
-							
-							<a class="add-wishlist" href="#">
-								<i class="fa fa-heart" aria-hidden="true"></i>												
-							</a>
-							
-							<a class="quickview" href="#">
-								<i class="fa fa-eye" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-					
-					<div class="product-item">
-						<div class="product-image">
-							<a href="product-detail-left-sidebar.html">
-								<img src="{{asset('theme/img/product/31.jpg')}}" alt="Product Image">
-							</a>
-						</div>
-						
-						<div class="product-title">
-							<a href="product-detail-left-sidebar.html">
-								Organic Strawberry Fruits
-							</a>
-						</div>
-						
-						<ul class="product-rating list-inline">
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li><i class="fa fa-star-o"></i></li>
-						</ul>
-						
-						<div class="product-price">
-							<span class="sale-price">$80.00</span>
-							<span class="base-price">$90.00</span>
-						</div>
-						
-						<div class="product-buttons">
-							<a class="add-to-cart" href="#">
-								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
-							</a>
-							
-							<a class="add-wishlist" href="#">
-								<i class="fa fa-heart" aria-hidden="true"></i>												
-							</a>
-							
-							<a class="quickview" href="#">
-								<i class="fa fa-eye" aria-hidden="true"></i>
-							</a>
-						</div>
-					</div>
-					
-					<div class="product-item">
-						<div class="product-image">
-							<a href="product-detail-left-sidebar.html">
-								<img src="{{asset('theme/img/product/9.jpg')}}" alt="Product Image">
-							</a>
-						</div>
-						
-						<div class="product-title">
-							<a href="product-detail-left-sidebar.html">
-								Organic Strawberry Fruits
-							</a>
-						</div>
-						
-						<ul class="product-rating list-inline">
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li><i class="fa fa-star-o"></i></li>
-						</ul>
-						
-						<div class="product-price">
-							<span class="sale-price">$80.00</span>
-							<span class="base-price">$90.00</span>
-						</div>
-						
-						<div class="product-buttons">
-							<a class="add-to-cart" href="#">
-								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
-							</a>
-							
-							<a class="add-wishlist" href="#">
-								<i class="fa fa-heart" aria-hidden="true"></i>												
-							</a>
-							
-							<a class="quickview" href="#">
-								<i class="fa fa-eye" aria-hidden="true"></i>
-								</a>
-						</div>
-					</div>
-					
-					<div class="product-item">
-						<div class="product-image">
-							<a href="product-detail-left-sidebar.html">
-								<img src="{{asset('theme/img/product/15.jpg')}}" alt="Product Image">
-							</a>
-						</div>
-						
-						<div class="product-title">
-							<a href="product-detail-left-sidebar.html">
-								Organic Strawberry Fruits
-							</a>
-						</div>
-						
-						<ul class="product-rating list-inline">
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li class="active"><i class="fa fa-star"></i></li>
-							<li><i class="fa fa-star-o"></i></li>
-						</ul>
-						
-						<div class="product-price">
-							<span class="sale-price">$120.00</span>
-						</div>
-						
-						<div class="product-buttons">
+					 <div class="product-item">
+                        <div class="product-image">
+                            <a href="product-detail-left-sidebar.html">
+                                <img src="https://uphinhnhanh.com/images/2018/11/05/botsanday.jpg" alt="Product Image">
+                            </a>
+                        </div>
+                        <div class="product-title">
+                            <a href="product-detail-left-sidebar.html">
+                                Bột sắn dây Đông Triều 500 Gram
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="sale-price">80.000 <sup>đ</sup></span>
+                            <!-- <span class="base-price">$90.00</span> -->
+                        </div>
+                        <div class="product-buttons">
 							<a class="add-to-cart" href="#">
 								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
 							</a>
@@ -222,7 +49,93 @@
 								<i class="fa fa-eye" aria-hidden="true"></i>
 							</a>
 						</div>
-					</div>
+                    </div>
+                    
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="product-detail-left-sidebar.html">
+                                <img src="https://uphinhnhanh.com/images/2018/11/05/thanhlongd.md.jpg" alt="Product Image">
+                            </a>
+                        </div>
+                        <div class="product-title">
+                            <a href="product-detail-left-sidebar.html">
+                                Thanh Long Ruột Đỏ Bình Thuận
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="sale-price">25.000 <sup>đ</sup></span>
+                            <span class="base-price">20.000 <sup>đ</sup></span>
+                        </div>
+                        <div class="product-buttons">
+							<a class="add-to-cart" href="#">
+								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+							</a>
+							<a class="add-wishlist" href="#">
+								<i class="fa fa-heart" aria-hidden="true"></i>		
+							</a>
+							<a class="quickview" href="#">
+								<i class="fa fa-eye" aria-hidden="true"></i>
+							</a>
+						</div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="product-detail-left-sidebar.html">
+                                <img src="https://uphinhnhanh.com/images/2018/11/05/camvinh2.jpg" alt="Product Image">
+                            </a>
+                        </div>
+                        <div class="product-title">
+                            <a href="product-detail-left-sidebar.html">
+                                Cam Vinh
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="sale-price">35.000 <sup>đ</sup></span>
+                            <!-- <span class="base-price">35000 <sup>đ</sup></span> -->
+                        </div>
+                        <div class="product-buttons">
+							<a class="add-to-cart" href="#">
+								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+							</a>
+							<a class="add-wishlist" href="#">
+								<i class="fa fa-heart" aria-hidden="true"></i>		
+							</a>
+							<a class="quickview" href="#">
+								<i class="fa fa-eye" aria-hidden="true"></i>
+							</a>
+						</div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-image">
+                            <a href="product-detail-left-sidebar.html">
+                                <img src="https://uphinhnhanh.com/images/2018/11/05/buoi-nam-roi-1.jpg" alt="Product Image">
+                            </a>
+                        </div>
+                        <div class="product-title">
+                            <a href="product-detail-left-sidebar.html">
+                                Bưởi Năm Roi 
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="sale-price">32.000 <sup>đ</sup></span>
+                            <span class="base-price">30.000 <sup>đ</sup></span>
+                        </div>
+
+                        <div class="product-buttons">
+							<a class="add-to-cart" href="#">
+								<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+							</a>
+							<a class="add-wishlist" href="#">
+								<i class="fa fa-heart" aria-hidden="true"></i>		
+							</a>
+							<a class="quickview" href="#">
+								<i class="fa fa-eye" aria-hidden="true"></i>
+							</a>
+						</div>
+                    </div>
+
 				</div>
 			</div>
 		</div>

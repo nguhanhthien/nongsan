@@ -91,6 +91,23 @@ body {
     border-bottom-color: #78b144;
 }
 
+.home-list .product-item img
+{
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.product-image .main-image img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.product-image .thumb-images img{
+    height: 100px;
+    object-fit: cover;
+}
+
 [class~=form] form input[type="text"] {
     width: 100%;
 }
@@ -2976,6 +2993,7 @@ input {
 
 [class~=products-block] [class~=product-item] [class~=product-title] {
     font-family: "SVNFuturaRegular";
+    height: 50px;
 }
 
 [class~=intro] [class~=intro-right],

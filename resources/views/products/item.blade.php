@@ -1,19 +1,17 @@
 <div class="product-item">
 	<div class="product-title">
-		<h1>Cua biển cà mua 3 gạch</h1>
+		<h1>Dừa Bến Tre</h1>
 	</div>
 				
 	<div class="row">
 		<div class="product-left col-md-5 col-sm-5 col-xs-12">
 			<div class="product-image horizontal">
 				<div class="main-image">
-					<img class="img-responsive" src="{{asset('theme/img/product/2.jpg')}}" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/duabentre.png" alt="Product Image">
 				</div>
 				<div class="thumb-images owl-theme owl-carousel">
-					<img class="img-responsive" src="{{asset('theme/img/product/33.jpg')}}" alt="Product Image">
-					<img class="img-responsive" src="{{asset('theme/img/product/3.jpg')}}" alt="Product Image">
-					<img class="img-responsive" src="{{asset('theme/img/product/7.jpg')}}" alt="Product Image">
-					<img class="img-responsive" src="{{asset('theme/img/product/30.jpg')}}" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/duabentre.png" alt="Product Image">
+					<img class="img-responsive" src="https://uphinhnhanh.com/images/2018/11/05/Dua.jpg" alt="Product Image">
 				</div>
 			</div>
 		</div>
@@ -23,22 +21,15 @@
 				<div class="product-price">
 					<div class="row">
 						<div class="col-md-4">
-							<span class="sale-price">$80.00</span>
-							<span class="base-price">$90.00</span>
-						</div>
-						<div class="col-md-8">
-							<h3 class="timeout pull-right">
-								Còn: <span class="color-red">64</span> ngày
-								<span class="color-red">03</span> giờ 
-								<span class="color-red">31</span> phút
-							</h3>
+							<span class="sale-price">200.000 <sup>đ</sup></span>
+							<span class="base-price">180.000 <sup>đ</sup></span>
 						</div>
 					</div>
 					
 				</div>
 				
 				<div class="product-short-description">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sapien urna, commodo ut molestie vitae, feugiat tincidunt ligula. Nam gravida nulla in convallis condimentum.
+					VỀ BẾN TRE NGHE CÂY DỪA KỂ CHUYỆN
 				</div>
 				
 			
@@ -69,25 +60,14 @@
 				</div>
 
 				<div class="product-share border-bottom">
-					<div class="progress">
-					  	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
-					  aria-valuemin="0" aria-valuemax="100" style="width:70%">
-					    70%
-					  	</div>
-					</div>
-					<h3>Số lượng đạt 70/<b>100kg</h3>
-				</div>
-
-				<div class="product-share border-bottom">
 					<!-- Left-aligned -->
 					<div class="media">
 					  	<div class="media-left">
-					    	<img src="http://localhost:8000/theme/img/product/3.jpg" class="media-object" style="width:60px">
+					    	<img src="https://uphinhnhanh.com/images/2018/11/05/buoi-nam-roi-1.jpg" class="media-object" style="width:60px">
 					  	</div>
 					  	<div class="media-body">
 					    	<h4 class="media-heading"><i class="fa fa-gift color-red"></i><b> Khuyến mãi kèm</b></h4>
-					    	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					    	tempor incididunt ut labore et dolore magna aliqua</p>
+					    	<p> Tặng 1kg bưởi năm roi khi đặt mua trên 10 trái dừa bến tre</p>
 					  	</div>
 					</div>
 				</div>
@@ -107,25 +87,25 @@
 					</div>
 					
 					<div class="item">
-						<a href="#"><i class="zmdi zmdi-comments" aria-hidden="true"></i><span class="text">Read Reviews (3)</span></a>
+						<a href="#"><i class="zmdi zmdi-comments" aria-hidden="true"></i><span class="text">Xem (3)</span></a>
 					</div>
 					
 					<div class="item">
-						<a href="#"><i class="zmdi zmdi-edit" aria-hidden="true"></i><span class="text">Write a review</span></a>
+						<a href="#"><i class="zmdi zmdi-edit" aria-hidden="true"></i><span class="text">Đánh giá</span></a>
 					</div>
 				</div>
 				
 				<div class="product-extra">
 					<div class="item">
 						<span class="control-label">DANH MỤC :</span>
-						<a href="#" title="Vegetables">Vegetables,</a>
-						<a href="#" title="Fruits">Fruits,</a>
-						<a href="#" title="Apple">Apple</a>
+						<a href="#" title="Vegetables">Thực phẩm tươi sống,</a>
+						<a href="#" title="Fruits">Trái cây,</a>
 					</div>
 					<div class="item">
 						<span class="control-label">Tags :</span>
-						<a href="#" title="Vegetables">Hot Trend,</a>
-						<a href="#" title="Fruits">Summer</a>			
+						<a href="#" title="Vegetables">Dừa,</a>
+						<a href="#" title="Fruits">Dừa nước,</a>			
+						<a href="#" title="Fruits">Dừa Bến Tre</a>
 					</div>
 				</div>
 			</div>
@@ -158,14 +138,59 @@
 		<div class="tab-content">
 			<!-- Description -->
 			<div role="tabpanel" class="tab-pane fade in active" id="description">
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+				Nhờ áp dụng tiến bộ khoa học kỹ thuật, dừa năng suất cao tại Bến Tre chiếm 10% tổng diện tích của tỉnh.<br/> Một trong những loại dừa đặc sản của tỉnh Bến Tre được nhiều người ưa chuộng. Không biết cây dừa làm nên Bến Tre hay Bến Tre làm nên cây dừa. Chỉ biết rằng nơi nào có được những hàng dừa, những bóng dừa rợp mát như tỉnh Bến Tre.
+				<br/>
+				Cây dừa đã giải quyết việc làm cho hàng chục ngàn lao động tại Bến Tre.
+				<br/>
+				Cây dừa lâu năm (dừa lão) được người dân lấy gỗ làm bàn ghế, nhà cửa không thua kém các loại gỗ khác. Những trái dừa sau khi lấy nước, phần gáo dừa được người nông dân chế tác thành những chiếc bình rất độc đáo.
 			</div>
 			
 			<!-- Product Tag -->
 			<div role="tabpanel" class="tab-pane fade" id="additional-information">
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a data-toggle="tab" href="#company">
+							<span>Công ty</span>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="tab" href="#ceitify">
+							<span>Chứng nhận</span>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="tab" href="#pack">
+							<span>Đóng gói và vận chuyển</span>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="tab" href="#pack">
+							<span>Khả năng cung ứng</span>
+						</a>
+					</li>
+					<li>
+						<a data-toggle="tab" href="#pack">
+							<span>Xuất khẩu</span>
+						</a>
+					</li>
+				</ul>
+
+				<div class="tab-content" style="padding-left: 20px;">
+					<!-- Description -->
+					<div role="tabpanel" class="tab-pane fade in active" id="company" style="padding-top: 20px;">
+						<p>Công ty TNHH Dừa Bến Tre chuyên cung cấp dừa cho cả nước và xuất khẩu từ năm 2005</p>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="ceitify" style="padding-top: 20px;">
+						<img style="max-width: 100%;margin-bottom: 10px;" src="https://uphinhnhanh.com/images/2018/11/08/GiykimnghiemDongTrung.jpg">
+
+						<img style="max-width: 100%;" src="https://uphinhnhanh.com/images/2018/11/08/30441293_1786317354723453_8946143876561764352_n.jpg">
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="pack" style="padding-top: 20px;">
+						<p>100000 trái / tháng</p>
+					</div>
+
+				</div>
+				
 			</div>
 			
 			<!-- Review -->

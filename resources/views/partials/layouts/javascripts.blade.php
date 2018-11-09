@@ -9,6 +9,5 @@
 <script src="{{ asset('theme/libs/slider-range/js/draggable-0.1.js')}}"></script>
 <script src="{{ asset('theme/libs/slider-range/js/jquery.slider.js')}}"></script>
 <script src="{{ asset('theme/libs/elevatezoom/jquery.elevatezoom.js')}}"></script>
-
 <!-- Template CSS -->
 <script src="{{ asset('theme/js/main.js')}}"></script>
