@@ -41,21 +41,21 @@
 
 					<!-- Products Grid -->
 					<div id="products-grid" style="padding-bottom: 60px;">
-						<div class="products-block">
+						<div class="products-block home-list">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="product-item">
 										<div class="product-image">
-											<a href="/san-pham-a">
-												<img class="img-responsive" src="{{ asset('theme/img//product/4.jpg')}}" alt="Product Image">
-											</a>
-										</div>
-										
-										<div class="product-title">
-											<a href="/san-pham-a-c">
-												Organic Strawberry Fruits
-											</a>
-										</div>
+				                            <a href="product-detail-left-sidebar.html">
+				                                <img src="https://uphinhnhanh.com/images/2018/11/05/botsanday.jpg" alt="Product Image">
+				                            </a>
+				                        </div>
+				                        <div class="product-title">
+				                            <a href="product-detail-left-sidebar.html">
+				                                Bột sắn dây Đông Triều 500 Gram
+				                            </a>
+				                        </div>
+				                        
 										
 										<ul class="product-rating list-inline">
 											<li class="active"><i class="fa fa-star"></i></li>
@@ -66,9 +66,8 @@
 										</ul>
 										
 										<div class="product-price">
-											<span class="sale-price">$80.00</span>
-											<span class="base-price">$90.00</span>
-										</div>
+				                            <span class="sale-price">80.000 <sup>đ</sup></span>
+				                        </div>
 										
 										<div class="product-buttons">
 											<a class="add-to-cart" href="#">
@@ -89,16 +88,15 @@
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="product-item">
 										<div class="product-image">
-											<a href="/san-pham-a">
-												<img class="img-responsive" src="{{ asset('theme/img//product/14.jpg')}}" alt="Product Image">
-											</a>
-										</div>
-										
-										<div class="product-title">
-											<a href="/san-pham-a">
-												Organic Strawberry Fruits
-											</a>
-										</div>
+				                            <a href="product-detail-left-sidebar.html">
+				                                <img src="https://uphinhnhanh.com/images/2018/11/05/thanhlongd.md.jpg" alt="Product Image">
+				                            </a>
+				                        </div>
+				                        <div class="product-title">
+				                            <a href="product-detail-left-sidebar.html">
+				                                Thanh Long Ruột Đỏ Bình Thuận
+				                            </a>
+				                        </div>
 										
 										<ul class="product-rating list-inline">
 											<li class="active"><i class="fa fa-star"></i></li>
@@ -109,9 +107,9 @@
 										</ul>
 										
 										<div class="product-price">
-											<span class="sale-price">$80.00</span>
-											<span class="base-price">$90.00</span>
-										</div>
+				                            <span class="sale-price">25.000 <sup>đ</sup></span>
+				                            <span class="base-price">20.000 <sup>đ</sup></span>
+				                        </div>
 										
 										<div class="product-buttons">
 											<a class="add-to-cart" href="#">
@@ -131,17 +129,16 @@
 								
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="product-item">
-										<div class="product-image">
-											<a href="/san-pham-a">
-												<img class="img-responsive" src="{{ asset('theme/img//product/17.jpg')}}" alt="Product Image">
-											</a>
-										</div>
-										
-										<div class="product-title">
-											<a href="/san-pham-a">
-												Organic Strawberry Fruits
-											</a>
-										</div>
+										 <div class="product-image">
+				                            <a href="product-detail-left-sidebar.html">
+				                                <img src="https://uphinhnhanh.com/images/2018/11/05/camvinh2.jpg" alt="Product Image">
+				                            </a>
+				                        </div>
+				                        <div class="product-title">
+				                            <a href="product-detail-left-sidebar.html">
+				                                Cam Vinh
+				                            </a>
+				                        </div>
 										
 										<ul class="product-rating list-inline">
 											<li class="active"><i class="fa fa-star"></i></li>
@@ -152,9 +149,9 @@
 										</ul>
 										
 										<div class="product-price">
-											<span class="sale-price">$80.00</span>
-											<span class="base-price">$90.00</span>
-										</div>
+				                            <span class="sale-price">35.000 <sup>đ</sup></span>
+				                            <!-- <span class="base-price">35000 <sup>đ</sup></span> -->
+				                        </div>
 										
 										<div class="product-buttons">
 											<a class="add-to-cart" href="#">
@@ -175,16 +172,15 @@
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="product-item">
 										<div class="product-image">
-											<a href="/san-pham-a">
-												<img class="img-responsive" src="{{ asset('theme/img//product/8.jpg')}}" alt="Product Image">
-											</a>
-										</div>
-										
-										<div class="product-title">
-											<a href="/san-pham-a">
-												Organic Strawberry Fruits
-											</a>
-										</div>
+				                            <a href="product-detail-left-sidebar.html">
+				                                <img src="https://uphinhnhanh.com/images/2018/11/05/buoi-nam-roi-1.jpg" alt="Product Image">
+				                            </a>
+				                        </div>
+				                        <div class="product-title">
+				                            <a href="product-detail-left-sidebar.html">
+				                                Bưởi Năm Roi 
+				                            </a>
+				                        </div>
 										
 										<ul class="product-rating list-inline">
 											<li class="active"><i class="fa fa-star"></i></li>
@@ -195,8 +191,9 @@
 										</ul>
 										
 										<div class="product-price">
-											<span class="sale-price">$120.00</span>
-										</div>
+				                            <span class="sale-price">32.000 <sup>đ</sup></span>
+				                            <span class="base-price">30.000 <sup>đ</sup></span>
+				                        </div>
 										
 										<div class="product-buttons">
 											<a class="add-to-cart" href="#">
@@ -217,16 +214,15 @@
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="product-item">
 										<div class="product-image">
-											<a href="/san-pham-a">
-												<img class="img-responsive" src="{{ asset('theme/img//product/9.jpg')}}" alt="Product Image">
-											</a>
-										</div>
-										
-										<div class="product-title">
-											<a href="/san-pham-a">
-												Organic Strawberry Fruits
-											</a>
-										</div>
+				                            <a href="product-detail-left-sidebar.html">
+				                                <img src="https://uphinhnhanh.com/images/2018/11/05/thitbachihunkhoi.md.jpg" alt="Product Image">
+				                            </a>
+				                        </div>
+				                        <div class="product-title">
+				                            <a href="product-detail-left-sidebar.html">
+				                                Thịt Ba Chỉ Hun Khói Yên Bái
+				                            </a>
+				                        </div>
 										
 										<ul class="product-rating list-inline">
 											<li class="active"><i class="fa fa-star"></i></li>
@@ -237,9 +233,9 @@
 										</ul>
 										
 										<div class="product-price">
-											<span class="sale-price">$80.00</span>
-											<span class="base-price">$90.00</span>
-										</div>
+				                            <span class="sale-price">160.000 <sup>đ</sup></span>
+				                            <!-- <span class="base-price">30.000 <sup>đ</sup></span> -->
+				                        </div>
 										
 										<div class="product-buttons">
 											<a class="add-to-cart" href="#">
@@ -260,16 +256,15 @@
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="product-item">
 										<div class="product-image">
-											<a href="/san-pham-a">
-												<img class="img-responsive" src="{{ asset('theme/img//product/15.jpg')}}" alt="Product Image">
-											</a>
-										</div>
-										
-										<div class="product-title">
-											<a href="/san-pham-a">
-												Organic Strawberry Fruits
-											</a>
-										</div>
+				                            <a href="product-detail-left-sidebar.html">
+				                                <img src="https://uphinhnhanh.com/images/2018/11/05/hongkho.jpg" alt="Product Image">
+				                            </a>
+				                        </div>
+				                        <div class="product-title">
+				                            <a href="product-detail-left-sidebar.html">
+				                                Hồng Khô Đà Lạt 500 gram / Bịch
+				                            </a>
+				                        </div>
 										
 										<ul class="product-rating list-inline">
 											<li class="active"><i class="fa fa-star"></i></li>
@@ -280,9 +275,9 @@
 										</ul>
 
 										<div class="product-price">
-											<span class="sale-price">$80.00</span>
-											<span class="base-price">$90.00</span>
-										</div>
+				                            <span class="sale-price">270.000 <sup>đ</sup></span>
+				                            <span class="base-price">250.000 <sup>đ</sup></span>
+				                        </div>
 										
 										<div class="product-buttons">
 											<a class="add-to-cart" href="#">
@@ -311,16 +306,15 @@
 									<div class="products owl-theme owl-carousel">
 										<div class="product-item">
 											<div class="product-image">
-												<a href="product-detail-left-sidebar.html">
-													<img src="{{ asset('theme/img/product/4.jpg')}}"alt="Product Image">
-												</a>
-											</div>
-											
-											<div class="product-title">
-												<a href="product-detail-left-sidebar.html">
-													Organic Strawberry Fruits
-												</a>
-											</div>
+					                            <a href="product-detail-left-sidebar.html">
+					                                <img src="https://sv1.uphinhnhanh.com/images/2018/11/05/ruocbebe.jpg" alt="Product Image">
+					                            </a>
+					                        </div>
+					                        <div class="product-title">
+					                            <a href="product-detail-left-sidebar.html">
+					                                Ruốc Bề Bề 200 gram / hũ
+					                            </a>
+					                        </div>
 											
 											<div class="product-rating">
 												<div class="star on"></div>
@@ -331,9 +325,9 @@
 											</div>
 											
 											<div class="product-price">
-												<span class="sale-price">$80.00</span>
-												<span class="base-price">$90.00</span>
-											</div>
+					                            <span class="sale-price">140.000 <sup>đ</sup></span>
+					                            <span class="base-price">130.000 <sup>đ</sup></span>
+					                        </div>
 											
 											<div class="product-buttons">
 												<a class="add-to-cart" href="#">

@@ -126,7 +126,7 @@ class DealController extends Controller
             $form->datetime('date_protocol','Ngày giao hàng dự kiến')->rules('required');
 
             $form->multipleSelect('areas','Khu vực vận chuyển')
-                    ->options(Location::whereNull('parent_code')->orderBy('id', 'asc')->pluck('name_with_type', 'code'));
+                    ->options(Location::whereNull('parent_code')->orderBy('id', 'desc')->pluck('name_with_type', 'code'));
                     
         })->tab('Mô tả & khuyến mãi', function ($form) {    
             $form->ckeditor('promotion','Mô tả khuyến mãi');
